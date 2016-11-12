@@ -1,0 +1,12 @@
+sudo: false
+language: node_js
+cache:
+  directories:
+    - node_modules
+node_js:
+  - 'stable'
+install:
+  - npm install
+script:
+  - npm run lint
+  - make deploy

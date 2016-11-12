@@ -1,0 +1,43 @@
+{
+  "name": "db-station-rangefinder",
+  "version": "0.0.1",
+  "description": "Find DB railway stations based on a travel distance in minutes",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard",
+    "precommit": "npm run lint",
+    "commitmsg": "validate-commit-msg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderbyheart/db-station-rangefinder.git"
+  },
+  "keywords": [
+    "DB",
+    "opendata"
+  ],
+  "author": "Markus Tacker <m@coderbyheart.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderbyheart/db-station-rangefinder/issues"
+  },
+  "homepage": "https://github.com/coderbyheart/db-station-rangefinder#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "lodash": "^4.16.6",
+    "moment": "^2.16.0",
+    "request": "^2.78.0",
+    "request-promise": "^4.1.1",
+    "tcomb": "^3.2.15"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "husky": "^0.11.9",
+    "standard": "^8.3.0",
+    "validate-commit-msg": "^2.8.2"
+  }
+}
