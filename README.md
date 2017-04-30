@@ -1,5 +1,7 @@
 # DB station rangefinder
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/coderbyheart/db-station-rangefinder.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/coderbyheart/db-station-rangefinder.svg)](https://travis-ci.org/coderbyheart/db-station-rangefinder)
 [![monitored by greenkeeper.io](https://img.shields.io/badge/greenkeeper.io-monitored-brightgreen.svg)](http://greenkeeper.io/) 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
